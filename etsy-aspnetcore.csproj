@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>etsy_aspnetcore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="flurl.http" Version="3.0.0" />
+    <PackageReference Include="oauth.dotnetcore" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>
